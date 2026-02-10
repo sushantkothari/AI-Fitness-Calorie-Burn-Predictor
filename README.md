@@ -91,37 +91,58 @@ The preprocessing pipeline and trained model are serialized using Pickle, enabli
 
 ---
 
-## Installation
+### Installation
 
-### Clone Repository
+1. Clone the repository:
 
-git clone https://github.com/sushantkothari/AI-Fitness-Calorie-Burn-Predictor.git  
-cd AI-Fitness-Calorie-Burn-Predictor
+    ```bash
+    git clone https://github.com/sushantkothari/AI-Fitness-Calorie-Burn-Predictor.git
+    cd AI-Fitness-Calorie-Burn-Predictor
+    ```
 
-### Create Virtual Environment
+2. Create and activate a virtual environment:
 
-python -m venv venv  
-venv\Scripts\activate
+    ```bash
+    # Windows (PowerShell / CMD)
+    python -m venv venv
+    .\venv\Scripts\activate
 
-### Install Dependencies
+    # macOS / Linux
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
-pip install flask scikit-learn pandas numpy
+3. Install dependencies:
+
+    ```bash
+    # If a requirements.txt file is present (recommended)
+    pip install -r requirements.txt
+
+    # Minimal core dependencies (fallback)
+    pip install flask scikit-learn pandas numpy jupyter
+    ```
 
 ---
 
 ## Running the Application
 
-Navigate to the Flask directory:
+1. Navigate to the Flask application directory:
 
-cd flask_app
+    ```bash
+    cd flask_app
+    ```
 
-Start the server:
+2. Start the server:
 
-python app.py
+    ```bash
+    python app.py
+    ```
 
-Open the application in a browser:
+3. Open the application in a browser:
 
-http://127.0.0.1:5000/
+    ```
+    http://127.0.0.1:5000/
+    ```
 
 ---
 
