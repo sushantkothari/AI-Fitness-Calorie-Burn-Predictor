@@ -55,7 +55,7 @@ Execution flow:
 4. The trained model generates calorie burn predictions.
 5. Predictions are rendered dynamically via server-side templates.
 
-This design enables low-latency inference while maintaining strict alignment with the training pipeline.
+This architecture facilitates low-latency inference while ensuring strict consistency with the training pipeline.
 
 ---
 
