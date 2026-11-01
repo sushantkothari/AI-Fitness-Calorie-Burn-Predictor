@@ -70,7 +70,7 @@ The preprocessing pipeline standardizes transformations to ensure reliability ac
 - Transformation of engineered attributes
 - Schema alignment between training and inference
 
-Embedding preprocessing within a serialized pipeline eliminates inconsistencies and reduces operational risk.
+Integrating preprocessing into a serialized pipeline ensures consistency and minimizes operational risks.
 
 ### Feature Selection
 
